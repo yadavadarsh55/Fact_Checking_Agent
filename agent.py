@@ -27,7 +27,7 @@ def infromation_retrieving_tool(claim: str) -> list:
     
     r = Rake()
     r.extract_keywords_from_text(claim)
-    topic = r.get_ranked_phrases()[:3]
+    topic = r.get_ranked_phrases()[:1]
 
     if topic == "":
         raise ValueError("No topic found in the claim.")
