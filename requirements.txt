@@ -1,6 +1,6 @@
 langchain
 langchain_community
-google-generative-ai
+langchain_google_genai
 rake-nltk
 dotenv
 langchain_core
