@@ -6,6 +6,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 
 # Import necessary components from the agent module
