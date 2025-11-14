@@ -1,6 +1,13 @@
 import streamlit as st
 import os
 
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+
+
 # Import necessary components from the agent module
 from agent import (
     initialize_agent,
